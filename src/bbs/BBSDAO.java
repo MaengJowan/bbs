@@ -153,7 +153,7 @@ public class BBSDAO {
 		return null; //db 오류
 	}
 	
-	public int UPDATE(int bbsID, String bbsTitle, String bbsContent) {
+	public int update(int bbsID, String bbsTitle, String bbsContent) {
 			String query="UPDATE BBS SET bbsTitle = ?, bbsContent = ? WHERE bbsID = ?";
 		
 		try {
